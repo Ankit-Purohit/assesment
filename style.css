@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#root{
+    width:100vw;
+    height:100vh;
+    border:2px solid red;
+    position: relative;
+}
+/* utility class for dot */
+.dots{
+    width:15px;
+    height:15px;
+    position: absolute;
+    background-color: black;
+    border-radius:50%; 
+    z-index: 30;
+    background-color:#C0C0C0;
+}
+.lines{
+    height: 15px;
+    /* border:2px solid green; */
+    background-color: brown;
+    position: absolute;
+    background-color: gray;
+    border-radius:50px;
+}
